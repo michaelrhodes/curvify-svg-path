@@ -1,0 +1,17 @@
+{
+  "name": "curvify-svg-path",
+  "version": "1.0.0",
+  "author": ["Michael Rhodes", "Jake Rosoman"],
+  "repository": "git://github.com/michaelrhodes/curvify-svg-path",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "abs-svg-path": "~0.1.1",
+    "benchmark": "~2.1.4",
+    "normalize-svg-path": "~1.0.1",
+    "parse-svg-path": "~0.1.2",
+    "tape": "~4.7.0"
+  }
+}
