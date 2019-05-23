@@ -11,6 +11,7 @@ function curvify (path) {
   var qx, qy, cx, cy
   var i = 0, j, m, sl
   var l = path.length
+  var c, seg;
 
   while (i < l) {
     seg = path[i++], cmd = seg[0]
